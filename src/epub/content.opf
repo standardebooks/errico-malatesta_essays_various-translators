@@ -109,14 +109,14 @@
 		<meta property="file-as" refines="#translator-4">Matson, Norman</meta>
 		<meta property="se:name.person.full-name" refines="#translator-4">Norman Häghejm Matson</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-4">http://id.loc.gov/authorities/names/no93020499</meta>
-		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator-4" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-5">Freedom Press</dc:contributor>
 		<meta property="file-as" refines="#translator-5">Freedom Press</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-5">https://en.wikipedia.org/wiki/Freedom_Press</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-5">http://id.loc.gov/authorities/names/n93096035</meta>
-		<meta property="role" refines="#translator-5" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator-5" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#translator-5" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Stanisław Lentz</dc:contributor>
 		<meta property="file-as" refines="#artist">Lentz, Stanisław</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lentz</meta>
@@ -141,8 +141,8 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>

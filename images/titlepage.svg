@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 770">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 710">
 	<title>The titlepage for the Standard Ebooks edition of Essays, by Errico Malatesta. Translated by Free Society Library, F. A. B., Industrial Syndicalist Education League, Norman Matson, and Freedom Press</title>
 	<style type="text/css">
 		text{
@@ -30,8 +30,7 @@
 	<text class="title" x="700" y="130">ESSAYS</text>
 	<text class="author" x="700" y="290">ERRICO MALATESTA</text>
 	<text class="contributor-descriptor" x="700" y="480">translated by</text>
-	<text class="contributor" x="700" y="540">FREE SOCIETY LIBRARY,</text>
-	<text class="contributor" x="700" y="600">F. A. B., INDUSTRIAL SYNDICALIST</text>
-	<text class="contributor" x="700" y="660">EDUCATION LEAGUE, NORMAN</text>
-	<text class="contributor" x="700" y="720">MATSON, AND FREEDOM PRESS</text>
+	<text class="contributor" x="700" y="540">FREE SOCIETY LIBRARY, F. A. B.,</text>
+	<text class="contributor" x="700" y="600">INDUSTRIAL SYNDICALIST EDUCATION LEAGUE,</text>
+	<text class="contributor" x="700" y="660">NORMAN MATSON, AND FREEDOM PRESS</text>
 </svg>

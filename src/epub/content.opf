@@ -85,7 +85,7 @@
 		<!--The Two Roads-->
 		<dc:source>https://archive.org/details/freedom-1921-08</dc:source>
 		<meta property="se:production-notes">Four abridged paragraphs from “Capitalist and Thieves” were restored thanks to a translation provided by Shawn P. Wilbur, who has agreed to release his translation as CC0.</meta>
-		<meta property="se:word-count">34718</meta>
+		<meta property="se:word-count">34692</meta>
 		<meta property="se:reading-ease.flesch">39.3</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Errico_Malatesta_bibliography</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/errico-malatesta_essays_various-translators</meta>

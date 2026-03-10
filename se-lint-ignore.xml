@@ -2,11 +2,13 @@
 <se-lint-ignore>
 	<file path="anarchy.xhtml">
 		<ignore code="s-033">
+			<line>2</line>
 			<reason>The translation was done into American English, not British English.</reason>
 		</ignore>
 	</file>
 	<file path="the-dictatorship-of-the-proletariat-and-anarchy.xhtml">
 		<ignore code="s-033">
+			<line>2</line>
 			<reason>The translation was done into American English, not British English.</reason>
 		</ignore>
 	</file>

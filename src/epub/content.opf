@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/errico-malatesta/essays/various-translators</dc:identifier>
 		<dc:date>2024-02-07T17:41:53Z</dc:date>
 		<meta property="dcterms:modified">2024-02-07T17:41:53Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -32,9 +33,9 @@
 		<dc:subject id="subject-1">Anarchism</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85004812</meta>
-		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:subject">Philosophy</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Philosophy</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:description id="description">A collection of essays by Errico Malatesta.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Active in the late 19th and early 20th centuries, &lt;a href="https://standardebooks.org/ebooks/errico-malatesta"&gt;Errico Malatesta&lt;/a&gt; was a leader in the Italian anarchist movement. A prolific theoretician and propagandist, Malatesta outlined his anarchist views in articles and pamphlets like “Anarchy,” in which he defines anarchy as “society without government,” a situation that will equate to “complete liberty with complete solidarity.” Besides addressing general theoretical issues in his essays, Malatesta also commentated on contemporary events of his lifetime like World War I, during which he penned articles like “Pro-Government Anarchists” criticizing fellow anarchists who took the side of the Entente against the German-led Central Powers.&lt;/p&gt;
@@ -84,15 +85,16 @@
 		<dc:source>https://archive.org/details/sep-1921-liberator</dc:source>
 		<!--The Two Roads-->
 		<dc:source>https://archive.org/details/freedom-1921-08</dc:source>
-		<meta property="se:production-notes">Four abridged paragraphs from “Capitalist and Thieves” were restored thanks to a translation provided by Shawn P. Wilbur, who has agreed to release his translation as CC0.</meta>
-		<meta property="se:word-count">34692</meta>
-		<meta property="se:reading-ease.flesch">39.3</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Errico_Malatesta_bibliography</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/errico-malatesta_essays_various-translators</meta>
+		<meta property="schema:wordCount">34692</meta>
+		<meta property="schema:educationalLevel">39.3</meta>
+		<link href="https://en.wikipedia.org/wiki/Errico_Malatesta_bibliography" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/errico-malatesta_essays_various-translators" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Errico Malatesta</dc:creator>
 		<meta property="file-as" refines="#author">Malatesta, Errico</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Errico_Malatesta</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79034395</meta>
+		<link href="https://en.wikipedia.org/wiki/Errico_Malatesta" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79034395.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Free Society Library</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Library, Free Society</meta>
@@ -102,40 +104,40 @@
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-3">Industrial Syndicalist Education League</dc:contributor>
 		<meta property="file-as" refines="#translator-3">Industrial Syndicalist Education League</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-3">https://en.wikipedia.org/wiki/Industrial_Syndicalist_Education_League</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-3">http://id.loc.gov/authorities/names/n77010394</meta>
+		<link href="https://en.wikipedia.org/wiki/Industrial_Syndicalist_Education_League" refines="#translator-3" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n77010394.html" refines="#translator-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-4">Norman Matson</dc:contributor>
 		<meta property="file-as" refines="#translator-4">Matson, Norman</meta>
-		<meta property="se:name.person.full-name" refines="#translator-4">Norman Häghejm Matson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-4">http://id.loc.gov/authorities/names/no93020499</meta>
+		<meta property="schema:alternateName" refines="#translator-4">Norman Häghejm Matson</meta>
+		<link href="https://id.loc.gov/authorities/names/no93020499.html" refines="#translator-4" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-4" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-5">Freedom Press</dc:contributor>
 		<meta property="file-as" refines="#translator-5">Freedom Press</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-5">https://en.wikipedia.org/wiki/Freedom_Press</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-5">http://id.loc.gov/authorities/names/n93096035</meta>
+		<link href="https://en.wikipedia.org/wiki/Freedom_Press" refines="#translator-5" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n93096035.html" refines="#translator-5" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-5" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-5" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Stanisław Lentz</dc:contributor>
 		<meta property="file-as" refines="#artist">Lentz, Stanisław</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lentz</meta>
+		<link href="https://en.wikipedia.org/wiki/Stanis%C5%82aw_Lentz" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Vineshen Pillay</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Pillay, Vineshen</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">The Anarchist Library</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Anarchist Library, The</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">https://theanarchistlibrary.org/</meta>
+		<link href="https://theanarchistlibrary.org/" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="correspondent-1">Shawn P. Wilbur</dc:contributor>
 		<meta property="file-as" refines="#correspondent-1">Wilbur, Shawn P.</meta>
-		<meta property="se:url.homepage" refines="#correspondent-1">https://www.libertarian-labyrinth.org/</meta>
-		<meta property="se:url.authority.nacoaf" refines="#correspondent-1">http://id.loc.gov/authorities/names/no2018006107</meta>
+		<link href="https://www.libertarian-labyrinth.org/" refines="#correspondent-1" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/no2018006107.html" refines="#correspondent-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#correspondent-1" scheme="marc:relators">crp</meta>
 		<dc:contributor id="producer-1">Weijia Cheng</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cheng, Weijia</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://weijiarhymeswith.asia/</meta>
+		<link href="https://weijiarhymeswith.asia/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -145,7 +147,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>

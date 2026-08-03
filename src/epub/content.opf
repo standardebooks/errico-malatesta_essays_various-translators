@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/errico-malatesta/essays/various-translators</dc:identifier>
 		<dc:date>2024-02-07T17:41:53Z</dc:date>
@@ -36,10 +36,10 @@
 		<meta property="schema:genre">Nonfiction</meta>
 		<meta property="schema:genre">Philosophy</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:description id="description">A collection of essays by Errico Malatesta.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A collection of essays by Errico Malatesta.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Active in the late 19th and early 20th centuries, &lt;a href="https://standardebooks.org/ebooks/errico-malatesta"&gt;Errico Malatesta&lt;/a&gt; was a leader in the Italian anarchist movement. A prolific theoretician and propagandist, Malatesta outlined his anarchist views in articles and pamphlets like “Anarchy,” in which he defines anarchy as “society without government,” a situation that will equate to “complete liberty with complete solidarity.” Besides addressing general theoretical issues in his essays, Malatesta also commentated on contemporary events of his lifetime like World War I, during which he penned articles like “Pro-Government Anarchists” criticizing fellow anarchists who took the side of the Entente against the German-led Central Powers.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<!--Anarchy-->
 		<dc:source>https://www.gutenberg.org/ebooks/40365</dc:source>

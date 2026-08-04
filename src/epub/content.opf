@@ -36,7 +36,7 @@
 		<meta property="schema:genre">Nonfiction</meta>
 		<meta property="schema:genre">Philosophy</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:abstract>A collection of essays by Errico Malatesta.</dc:abstract>
+		<meta property="schema:abstract">A collection of essays by Errico Malatesta.</meta>
 		<dc:description>
 			&lt;p&gt;Active in the late 19th and early 20th centuries, &lt;a href="https://standardebooks.org/ebooks/errico-malatesta"&gt;Errico Malatesta&lt;/a&gt; was a leader in the Italian anarchist movement. A prolific theoretician and propagandist, Malatesta outlined his anarchist views in articles and pamphlets like “Anarchy,” in which he defines anarchy as “society without government,” a situation that will equate to “complete liberty with complete solidarity.” Besides addressing general theoretical issues in his essays, Malatesta also commentated on contemporary events of his lifetime like World War I, during which he penned articles like “Pro-Government Anarchists” criticizing fellow anarchists who took the side of the Entente against the German-led Central Powers.&lt;/p&gt;
 		</dc:description>
